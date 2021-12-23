@@ -1,0 +1,154 @@
+nav a{
+    transition:0.5s all;
+    padding:5px;
+    border-bottom:1px solid rgba(255, 255, 255, 0);
+}
+nav a:hover{
+    transition:0.5s all;
+    border-bottom:1px solid white;
+}
+#text-card_1 span{
+    animation:Text_1;
+    overflow:hidden;
+    animation-duration: 1s;
+    display: block;
+}
+@keyframes Text_1{
+    from{
+        margin-left:-200px;
+    }
+    
+}
+
+
+#text-card_2 span{
+    animation:Text_2;
+    overflow:hidden;
+    animation-duration: 1.5s;
+    display: block;
+}
+@keyframes Text_2{
+    from{
+        margin-top:-300px;
+    }
+}
+
+#text-card_3{
+    animation:Text_3;
+    overflow:hidden;
+    animation-duration: 2s;
+    display: block;
+}
+.header-text-card:hover{
+    background:rgba(255, 255, 255, 0.048);
+    transition:0.5s all;
+}
+@keyframes Text_3{
+    from{
+        margin-bottom:-300px;
+        opacity:0.0;
+    }
+    50%{
+        opacity:0;
+    }
+}
+.logo span{
+    animation:Logo;
+    overflow:hidden;
+    animation-duration: 1s;
+    display: block;
+}
+@keyframes Logo{
+    from{
+        margin-top:-100px;
+    }
+}
+
+#Black{
+    animation:Black;
+    overflow:hidden;
+    animation-duration: 1s;
+}
+
+@keyframes Black{
+    from{
+        margin-left:-300px;
+        opacity:0;
+    }
+}
+#And{
+    animation:And;
+    overflow:hidden;
+    animation-duration: 3.5s;
+}
+
+@keyframes And{
+    from{
+        margin-left:-600px;
+        opacity:0;
+    }
+    50%{
+        margin-left:0px;
+    }
+}
+#White{
+    animation:White;
+    overflow:hidden;
+    animation-duration: 2.5s;
+}
+
+@keyframes White{
+    from{
+        margin-left:-600px;
+        opacity:0;
+    }
+    40%{
+        opacity:0;
+    }
+
+}
+nav a{
+    display:block;
+    overflow:hidden;
+    animation:link;
+    animation-duration:2.5s;
+}
+
+@keyframes link{
+    from{
+        margin-left:-100px;
+        opacity:0;
+    }
+}
+.social img:hover{
+    background:rgba(255, 255, 255, 0.048);
+    transition:0.5s all;
+    cursor:pointer;
+}
+.social img{
+    animation:Social;
+    animation-duration: 2.5s;
+}
+@keyframes Social{
+    from{
+        margin-bottom:-100px;
+        opacity:0;
+    }
+}
+#down-vector{
+    display:block;
+    animation:Down;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Down{
+    40%{
+        bottom:30px;
+        opacity:0.4
+    }
+    100%{
+        bottom:0;
+        opacity:0.8;
+    }
+    
+}
